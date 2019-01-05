@@ -9,6 +9,7 @@
 </head>
 <body>
     <div>
+    <h1>YESSSS hij doet het heur lekker man</h1>
         @yield('content')
     </div>
 </body>

@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>projects</title>
-</head>
-<body>
+@extends("layout")
+
+
+@section('content')
+
     <h1>Create New</h1>
     <form method="POST"action="/projects" class="form-group">
         {{ csrf_field() }}
@@ -20,5 +16,4 @@
             <button type="submit" class="btn btn-primary">submit</button>
         </div>
     </form>
-</body>
-</html>
+@endsection
